@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "E:\\javascript\\game!!"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "snakepy"
+  }
+}

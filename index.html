@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake</title>
+    <link rel="stylesheet" href="dist/css/style.css" />
+  </head>
+  <body>
+    <div class="interface">
+      <video src="video.mp4" autoplay></video>
+      <h1>Mikhayiyl tek studios</h1>
+    </div>
+    <div class="container">
+      <button class="pause btn">Pause</button>
+      <div id="game-board"></div>
+      <div class="game-scores"></div>
+      <div id="score">
+        <div class="scores"></div>
+        <div class="btns flex">
+          <button class="btn resume">Resume</button>
+          <button class="btn level" onclick="GameManager.mainMenu()">
+            Main Menu
+          </button>
+          <button class="btn restart">Restart</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <h6>By : Mikhayiyl</h6>
+      <p>copyright 2022</p>
+    </div>
+  </body>
+  <script src="./game.js" defer type="module"></script>
+</html>
